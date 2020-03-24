@@ -3,7 +3,7 @@ import { expect } from 'chai'
 import React from 'react'
 import enzyme, { shallow } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
-
+ 
 // This is the part you update
 import { DisconnectedAllCats } from '../../src/client/components/AllCats'
 import CatCard from '../../src/client/components/CatCard'
@@ -12,7 +12,7 @@ import CatCard from '../../src/client/components/CatCard'
 const adapter = new Adapter()
 enzyme.configure({ adapter })
 
-xdescribe('React - AllCats', () => {
+describe('React - AllCats', () => {
   let catsWrapper
 
   const cats = [

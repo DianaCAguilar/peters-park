@@ -54,5 +54,21 @@
     "redux-thunk": "^2.3.0",
     "sequelize": "^5.19.4",
     "volleyball": "^1.5.1"
-  }
+  },
+  "description": "## What's up with this? Help Peter set up his park!",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaCAguilar/peters-park.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianaCAguilar/peters-park/issues"
+  },
+  "homepage": "https://github.com/DianaCAguilar/peters-park#readme"
 }

@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom' // hint, you may want to use this
 // This is not really tested, other than what props you use here
 // Check AllCats specs for what is being checked
 
-const CatCard = (props) => {
+const CatCard = ({ name, id }) => {
   return (
-    <div class='cat-card'>
-      YOUR CAT CARD CODE HERE
-
+    <div className='cat-card'>
+      <Link to={`/cats/${id}`} >{ name }</Link>
     </div>
   )
 }
+
 
 export default CatCard
